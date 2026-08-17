@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- head definitions go here -->
+        <script src="create_file.js"></script>
     </head>
     <body>
         <form>
-            <label for="rodzaj_wn">1. Wybierz rodzaj wniosku</label>
+            <label for="rodzaj_wn">Wybierz rodzaj wniosku</label>
             <select name="rodzaj_wn" id="rodzaj_wn">
                 <option value="wyjazd">Wyjazd za granicę</option>
               <option value="urlop">Urlop nagrodowy</option>
@@ -22,9 +22,18 @@
             <input type="radio" id="inny" value="inny" name="dzien">
             <label for="inny">Inna data   </label>
             <br>
+
+            <label for="stopien">Twój stopień</label>
+            <select name="stopien" id="stopien">
+                <option value="sier">Sierżant</option>
+                <option value="plut">Plutonowy</option>
+                <option value="skpr">Starszy kapral</option>
+                <option value="kpr">Kapral</option>
+            </select>
+            <br>
             
             <br>
-            <label for="nazwisko">Twoje imię i Nazwisko</label>
+            <label for="nazwisko">Twoje imię i nazwisko</label>
             <input type="text" id="nazwisko">
 
             <br>

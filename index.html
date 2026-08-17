@@ -4,6 +4,33 @@
         <!-- head definitions go here -->
     </head>
     <body>
-        <!-- the content goes here -->
+        <form>
+            <label for="rodzaj_wn">1. Wybierz rodzaj wniosku</label>
+            <select name="rodzaj_wn" id="rodzaj_wn">
+                <option value="wyjazd">Wyjazd za granicę</option>
+              <option value="urlop">Urlop nagrodowy</option>
+              <option value="sluzba">Zaświadczenie o służbie</option>
+            </select>
+            <p>Z jaką datą chcesz złożyć</p>
+            
+            <input type="radio" id="dzis" value="dzis" name="dzien">
+            <label for="dzis">Dzisiaj   </label>
+            
+            <input type="radio" id="jutro" value="jutro" name="dzien">
+            <label for="jutro">Jutro   </label>
+            
+            <input type="radio" id="inny" value="inny" name="dzien">
+            <label for="inny">Inna data   </label>
+            <br>
+            
+            <br>
+            <label for="nazwisko">Twoje imię i Nazwisko</label>
+            <input type="text" id="nazwisko">
+
+            
+            
+            <br><br>
+            <input type="submit" value="Pobierz">
+        </form>
     </body>
 </html>
